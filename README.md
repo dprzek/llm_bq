@@ -11,6 +11,4 @@
   - Set the Role to Vertex AI User then click SAVE.
 6. Create an external table with reference to your files using external_table.sql.
 7. Create a model using: model_create.sql - use appropriate endpoint.
-7. Collaborate with: query_llm.sql
-8. Code works with no bugs provided that data sample is kept in dataset named 'agora_set' and in table 'news' with two columns: `'int64_field_0'` (id) and `'string_field_1'` (article).
-10. voila!
+8. Collaborate with: gemini_prompting.sql
